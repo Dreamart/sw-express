@@ -1,0 +1,1 @@
+<?php return unserialize('a:1:{i:0;O:61:"Oro\\Bundle\\EntityConfigBundle\\Metadata\\Annotation\\ConfigField":2:{s:4:"mode";s:7:"default";s:13:"defaultValues";a:1:{s:5:"merge";a:1:{s:7:"display";b:1;}}}}');

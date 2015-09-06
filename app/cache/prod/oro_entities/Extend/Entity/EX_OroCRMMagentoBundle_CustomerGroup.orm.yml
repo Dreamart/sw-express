@@ -1,0 +1,3 @@
+Extend\Entity\EX_OroCRMMagentoBundle_CustomerGroup:
+    type: mappedSuperclass
+    fields: {  }

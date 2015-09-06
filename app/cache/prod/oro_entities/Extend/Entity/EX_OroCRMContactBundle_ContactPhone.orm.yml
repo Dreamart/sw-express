@@ -1,0 +1,3 @@
+Extend\Entity\EX_OroCRMContactBundle_ContactPhone:
+    type: mappedSuperclass
+    fields: {  }

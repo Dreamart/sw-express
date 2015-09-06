@@ -1,0 +1,3 @@
+Extend\Entity\EX_OroCRMCampaignBundle_Campaign:
+    type: mappedSuperclass
+    fields: {  }

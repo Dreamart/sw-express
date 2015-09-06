@@ -1,0 +1,3 @@
+Extend\Entity\EX_OroWorkflowBundle_WorkflowItem:
+    type: mappedSuperclass
+    fields: {  }

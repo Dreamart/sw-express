@@ -1,0 +1,30 @@
+@import "../mixins";
+html, body, #page, #top-page {
+  height: 100%;
+  overflow: hidden; // prevents scroll bar appearance
+}
+html{
+  overflow-x: auto;
+}
+.responsive-block{
+  min-width: 340px;
+  padding-right: 5px;
+}
+#left-panel,
+#right-panel {
+  overflow: visible;
+}
+#left-panel, #right-panel, #main {
+  float: left;
+}
+.desktop-version .oro-page {
+  &.collapsible-sidebar {
+    .oro-page-sidebar {
+      > .dropdown-menu {
+        display: block !important;
+        z-index: inherit;
+        width: 100%;
+      }
+    }
+  }
+}

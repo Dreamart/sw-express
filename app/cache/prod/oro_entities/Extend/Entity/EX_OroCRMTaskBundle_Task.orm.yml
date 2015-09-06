@@ -1,0 +1,3 @@
+Extend\Entity\EX_OroCRMTaskBundle_Task:
+    type: mappedSuperclass
+    fields: {  }

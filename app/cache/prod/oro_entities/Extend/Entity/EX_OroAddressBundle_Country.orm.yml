@@ -1,0 +1,3 @@
+Extend\Entity\EX_OroAddressBundle_Country:
+    type: mappedSuperclass
+    fields: {  }

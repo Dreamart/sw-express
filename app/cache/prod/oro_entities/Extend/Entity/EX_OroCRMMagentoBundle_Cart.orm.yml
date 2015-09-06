@@ -1,0 +1,3 @@
+Extend\Entity\EX_OroCRMMagentoBundle_Cart:
+    type: mappedSuperclass
+    fields: {  }

@@ -1,0 +1,31 @@
+liip_imagine:
+    filter_sets:
+        avatar_med:
+            quality:          95
+            filters:
+                thumbnail:    { size: [58, 58], mode: outbound }
+                strip:        ~
+        avatar_xsmall:
+            quality:          95
+            filters:
+                thumbnail:    { size: [16, 16], mode: outbound }
+                strip:        ~
+
+twig:
+    globals:
+        assets_version:       "%assets_version%"
+
+assetic:
+    assets:
+        jquery:
+            inputs:
+                - %kernel.root_dir%/../vendor/components/jquery/jquery.js
+            output: bundles/components/jquery/jquery.js
+        underscore:
+            inputs:
+                - %kernel.root_dir%/../vendor/components/underscore/underscore.js
+            output: bundles/components/underscore/underscore.js
+        backbone:
+            inputs:
+                - %kernel.root_dir%/../vendor/components/backbone/backbone.js
+            output: bundles/components/backbone/backbone.js

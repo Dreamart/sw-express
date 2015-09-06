@@ -1,0 +1,3 @@
+Extend\Entity\EX_OroCRMChannelBundle_CustomerIdentity:
+    type: mappedSuperclass
+    fields: {  }

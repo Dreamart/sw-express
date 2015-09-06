@@ -1,0 +1,3 @@
+Extend\Entity\EX_OroCRMCaseBundle_CaseComment:
+    type: mappedSuperclass
+    fields: {  }

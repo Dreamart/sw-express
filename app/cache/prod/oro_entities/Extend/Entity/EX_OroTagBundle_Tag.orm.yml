@@ -1,0 +1,3 @@
+Extend\Entity\EX_OroTagBundle_Tag:
+    type: mappedSuperclass
+    fields: {  }

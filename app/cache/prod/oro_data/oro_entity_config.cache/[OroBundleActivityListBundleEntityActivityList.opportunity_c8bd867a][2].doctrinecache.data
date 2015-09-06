@@ -1,0 +1,2 @@
+0
+a:2:{i:0;a:1:{s:6:"extend";a:11:{s:5:"owner";s:6:"System";s:5:"state";s:6:"Active";s:9:"is_extend";b:1;s:10:"is_deleted";b:0;s:6:"origin";s:6:"System";s:15:"without_default";b:1;s:12:"relation_key";s:126:"manyToMany|Oro\Bundle\ActivityListBundle\Entity\ActivityList|OroCRM\Bundle\SalesBundle\Entity\Opportunity|opportunity_c8bd867a";s:13:"target_entity";s:44:"OroCRM\Bundle\SalesBundle\Entity\Opportunity";s:12:"target_title";a:1:{i:0;s:2:"id";}s:15:"target_detailed";a:1:{i:0;s:2:"id";}s:11:"target_grid";a:1:{i:0;s:2:"id";}}}i:1;s:10:"manyToMany";}

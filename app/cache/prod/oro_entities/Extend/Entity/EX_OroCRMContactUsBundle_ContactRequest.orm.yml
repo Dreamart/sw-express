@@ -1,0 +1,3 @@
+Extend\Entity\EX_OroCRMContactUsBundle_ContactRequest:
+    type: mappedSuperclass
+    fields: {  }

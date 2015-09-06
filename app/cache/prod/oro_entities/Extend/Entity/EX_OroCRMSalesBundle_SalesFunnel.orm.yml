@@ -1,0 +1,3 @@
+Extend\Entity\EX_OroCRMSalesBundle_SalesFunnel:
+    type: mappedSuperclass
+    fields: {  }

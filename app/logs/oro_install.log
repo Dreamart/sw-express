@@ -1,0 +1,411 @@
+
+[2015-09-06 11:22:25] Launching "cache:clear" command
+Clearing the cache for the prod environment with debug false
+
+Command "cache:clear" executed in 19 second(s), memory usage: 57.22Mb
+
+
+[2015-09-06 11:22:50] Launching "cache:clear" command
+Clearing the cache for the prod environment with debug false
+
+Command "cache:clear" executed in 20 second(s), memory usage: 57.22Mb
+
+
+[2015-09-06 11:23:13] Launching "doctrine:schema:drop" command
+Dropping database schema...
+Database schema dropped successfully!
+
+Command "doctrine:schema:drop" executed in 0 second(s), memory usage: 23.75Mb
+
+
+[2015-09-06 11:23:14] Launching "oro:entity-config:cache:clear" command
+Clear the entity config cache
+
+Command "oro:entity-config:cache:clear" executed in 0 second(s), memory usage: 7.78Mb
+
+
+[2015-09-06 11:23:14] Launching "oro:entity-extend:cache:clear" command
+Clear extended entity cache
+
+Command "oro:entity-extend:cache:clear" executed in 0 second(s), memory usage: 8.70Mb
+
+
+[2015-09-06 11:23:16] Launching "oro:migration:load" command
+Process migrations...
+  > Oro\Bundle\MigrationBundle\Migration\CreateMigrationTableMigration
+  > Oro\Bundle\OrganizationBundle\Migrations\Schema\OroOrganizationBundleInstaller
+  > Oro\Bundle\SecurityBundle\Migrations\Schema\OroSecurityBundleInstaller
+  > Oro\Bundle\AttachmentBundle\Migrations\Schema\OroAttachmentBundleInstaller
+  > Oro\Bundle\EmailBundle\Migrations\Schema\OroEmailBundleInstaller
+  > Oro\Bundle\UserBundle\Migrations\Schema\OroUserBundleInstaller
+  > Oro\Bundle\SSOBundle\Migrations\Schema\OroUserBundleInstaller
+  > Oro\Bundle\EntityConfigBundle\Migrations\Schema\OroEntityConfigBundleInstaller
+  > Oro\Bundle\EntityExtendBundle\Migrations\Schema\OroEntityExtendBundleInstaller
+  > Oro\Bundle\IntegrationBundle\Migrations\Schema\OroIntegrationBundleInstaller
+  > Oro\Bundle\ActivityBundle\Migrations\Schema\OroActivityBundleInstaller
+  > Oro\Bundle\ActivityListBundle\Migrations\Schema\OroActivityListBundleInstaller
+  > Oro\Bundle\AddressBundle\Migrations\Schema\OroAddressBundleInstaller
+  > Oro\Bundle\BatchBundle\Migrations\Schema\OroBatchBundleInstaller
+  > Oro\Bundle\CalendarBundle\Migrations\Schema\OroCalendarBundleInstaller
+  > Oro\Bundle\ConfigBundle\Migrations\Schema\OroConfigBundleInstaller
+  > Oro\Bundle\CronBundle\Migrations\Schema\OroCronBundleInstaller
+  > Oro\Bundle\DataAuditBundle\Migrations\Schema\OroDataAuditBundleInstaller
+  > Oro\Bundle\DataGridBundle\Migrations\Schema\OroDataGridBundleInstaller
+  > Oro\Bundle\EmbeddedFormBundle\Migrations\Schema\OroEmbeddedFormBundleInstaller
+  > Oro\Bundle\ImapBundle\Migrations\Schema\OroImapBundleInstaller
+  > Oro\Bundle\InstallerBundle\Migrations\Schema\OroInstallerBundleInstaller
+  > Oro\Bundle\MigrationBundle\Migrations\Schema\OroMigrationBundleInstaller
+  > Oro\Bundle\NoteBundle\Migrations\Schema\OroNoteBundleInstaller
+  > Oro\Bundle\NotificationBundle\Migrations\Schema\OroNotificationBundleInstaller
+  > Oro\Bundle\PlatformBundle\Migrations\Schema\OroPlatformBundleInstaller
+  > Oro\Bundle\ReportBundle\Migrations\Schema\OroReportBundleInstaller
+  > Oro\Bundle\SearchBundle\Migrations\Schema\OroSearchBundleInstaller
+  > Oro\Bundle\SegmentBundle\Migrations\Schema\OroSegmentBundleInstaller
+  > Oro\Bundle\SidebarBundle\Migrations\Schema\OroSidebarBundleInstaller
+  > Oro\Bundle\TagBundle\Migrations\Schema\OroTagBundleInstaller
+  > Oro\Bundle\TranslationBundle\Migrations\Schema\OroTranslationBundleInstaller
+  > Oro\Bundle\WindowsBundle\Migrations\Schema\OroWindowsBundleInstaller
+  > Oro\Bundle\WorkflowBundle\Migrations\Schema\OroWorkflowBundleInstaller
+  > Oro\Bundle\CommentBundle\Migrations\Schema\OroCommentBundleInstaller
+  > Oro\Bundle\DashboardBundle\Migrations\Schema\OroDashboardBundleInstaller
+  > Oro\Bundle\NavigationBundle\Migrations\Schema\OroNavigationBundleInstaller
+  > OroCRM\Bundle\ContactBundle\Migrations\Schema\OroCRMContactBundleInstaller
+  > OroCRM\Bundle\AccountBundle\Migrations\Schema\OroCRMAccountBundleInstaller
+  > OroCRM\Bundle\MarketingListBundle\Migrations\Schema\OroCRMMarketingListBundleInstaller
+  > Oro\Bundle\TrackingBundle\Migrations\Schema\OroTrackingBundleInstaller
+  > Oro\Bundle\ReminderBundle\Migrations\Schema\OroReminderBundleBundleInstaller
+  > OroCRM\Bundle\CallBundle\Migrations\Schema\OroCRMCallBundleInstaller
+  > OroCRM\Bundle\CampaignBundle\Migrations\Schema\OroCRMCampaignBundleInstaller
+  > OroCRM\Bundle\ChannelBundle\Migrations\Schema\OroCRMChannelBundleInstaller
+  > OroCRM\Bundle\TaskBundle\Migrations\Schema\OroCRMTaskBundleInstaller
+  > OroCRM\Bundle\AnalyticsBundle\Migrations\Schema\OroCRMAnalyticsBundleInstaller
+  > OroCRM\Bundle\SalesBundle\Migrations\Schema\OroCRMSalesBundleInstaller
+  > OroCRM\Bundle\ContactUsBundle\Migrations\Schema\OroCRMContactUsBundleInstaller
+  > OroCRM\Bundle\MagentoBundle\Migrations\Schema\OroCRMMagentoBundleInstaller
+  > OroCRM\Bundle\CaseBundle\Migrations\Schema\OroCRMCaseBundleInstaller
+  > Oro\Bundle\MigrationBundle\Migration\UpdateBundleVersionMigration
+  > Oro\Bundle\EntityExtendBundle\Migration\RefreshExtendCacheMigration
+  > Oro\Bundle\EntityConfigBundle\Migration\UpdateEntityConfigMigration
+  > Oro\Bundle\EntityExtendBundle\Migration\UpdateExtendConfigMigration
+  > OroCRM\Bundle\ActivityContactBundle\Migration\ActivityContactMigration
+  > Oro\Bundle\ActivityListBundle\Migration\ActivityListMigration
+  > Oro\Bundle\EntityExtendBundle\Migration\UpdateExtendIndicesMigration
+
+Command "oro:migration:load" executed in 1027 second(s), memory usage: 50.48Mb
+
+
+[2015-09-06 11:40:23] Launching "oro:workflow:definitions:load" command
+Loading workflow definitions...
+  > task_flow
+  > b2b_flow_lead
+  > b2b_flow_sales
+  > b2b_flow_sales_funnel
+  > b2c_flow_abandoned_shopping_cart
+  > b2c_flow_order_follow_up
+
+Command "oro:workflow:definitions:load" executed in 4 second(s), memory usage: 31.45Mb
+
+
+[2015-09-06 11:40:27] Launching "oro:process:configuration:load" command
+Loading process definitions...
+  > sync_email_body_after_email_synchronize
+  > sync_email_flag_after_changed
+  > schedule_integration
+  > clear_user_email_origin_on_deactivation
+  > clear_imap_email_folder_on_sync_enabled_change
+  > analytics_channel_calculate_rfm
+  > convert_mailbox_email_to_lead
+  > magento_customer_creation
+  > magento_customer_export
+  > magento_customer_address_export
+  > magento_analytics_customer_calculate
+  > magento_analytics_customer_calculate_imported
+  > magento_schedule_integration
+  > convert_mailbox_email_to_case
+Loading process triggers...
+  > sync_email_body_after_email_synchronize:create
+  > sync_email_flag_after_changed:update
+  > schedule_integration:update
+  > schedule_integration:create
+  > clear_user_email_origin_on_deactivation:update
+  > clear_imap_email_folder_on_sync_enabled_change:update
+  > analytics_channel_calculate_rfm:update
+  > magento_customer_creation:create
+  > magento_customer_export:update
+  > magento_customer_address_export:update
+  > magento_analytics_customer_calculate_imported:create
+  > magento_analytics_customer_calculate:update
+  > magento_schedule_integration:update
+
+Command "oro:process:configuration:load" executed in 2 second(s), memory usage: 27.83Mb
+
+
+[2015-09-06 11:40:29] Launching "oro:migration:data:load" command
+Loading "main" data fixtures ...
+  > loading [-240] Oro\Bundle\OrganizationBundle\Migrations\Data\ORM\LoadOrganizationAndBusinessUnitData
+  > loading [-230] Oro\Bundle\CalendarBundle\Migrations\Data\ORM\UpdateCalendarWithOrganization
+  > loading OroCRM\Bundle\MagentoBundle\Migrations\Data\ORM\LoadMagentoCountryData
+  > loading OroCRM\Bundle\MagentoBundle\Migrations\Data\ORM\UpdateDefaultWorkflowItem
+  > loading OroCRM\Bundle\MagentoBundle\Migrations\Data\ORM\LoadShoppingCartStatusData
+  > loading OroCRM\Bundle\ContactBundle\Migrations\Data\ORM\LoadGroupData
+  > loading OroCRM\Bundle\ContactBundle\Migrations\Data\ORM\LoadSourceData
+  > loading OroCRM\Bundle\ContactBundle\Migrations\Data\ORM\LoadMethodData
+  > loading OroCRM\Bundle\MagentoBundle\Migrations\Data\ORM\UpdateConnectors
+  > loading OroCRM\Bundle\ActivityContactBundle\Migrations\Data\ORM\ActivityContactRecalculate
+  > loading OroCRM\Bundle\TaskBundle\Migrations\Data\ORM\LoadTaskPriority
+  > loading Oro\Bundle\NotificationBundle\Migrations\Data\ORM\LoadDefaultNotificationEvents
+  > loading Oro\Bundle\SearchBundle\Migrations\Data\ORM\AddSearchReindexJob
+  > loading Oro\Bundle\SegmentBundle\Migrations\Data\ORM\LoadSegmentTypes
+  > loading Oro\Bundle\WorkflowBundle\Migrations\Data\ORM\ExcludeImportExportFields
+  > loading OroCRM\Bundle\MagentoBundle\Migrations\Data\ORM\UpdateCustomerLifetime
+  > loading Oro\Bundle\OrganizationBundle\Migrations\Data\ORM\MoveOrganizationFromConfig
+  > loading OroCRM\Bundle\SalesBundle\Migrations\Data\ORM\LoadLeadSourceData
+  > loading OroCRM\Bundle\CallBundle\Migrations\Data\ORM\LoadCallStatusData
+  > loading OroCRM\Bundle\SalesBundle\Migrations\Data\ORM\LoadOpportunityStatusData
+  > loading OroCRM\Bundle\SalesBundle\Migrations\Data\ORM\ConvertLeadSourceData
+  > loading OroCRM\Bundle\SalesBundle\Migrations\Data\ORM\LoadOpportunityCloseReasonData
+  > loading OroCRM\Bundle\SalesBundle\Migrations\Data\ORM\UpdateWorkflowStartStep
+  > loading OroCRM\Bundle\CallBundle\Migrations\Data\ORM\LoadCallDirectionData
+  > loading OroCRM\Bundle\SalesBundle\Migrations\Data\ORM\DeactivateSalesWorkflows
+  > loading OroCRM\Bundle\MarketingListBundle\Migrations\Data\ORM\UpdateMarketingListSegmentOrganization
+  > loading OroCRM\Bundle\MarketingListBundle\Migrations\Data\ORM\LoadMarketingListTypes
+  > loading OroCRM\Bundle\MagentoBundle\Migrations\Data\ORM\CreateSyncStatusForExistingConnectors
+  > loading OroCRM\Bundle\ContactUsBundle\Migrations\Data\ORM\LoadContactReasonData
+  > loading OroCRM\Bundle\SalesBundle\Migrations\Data\ORM\LoadLeadStatusData
+  > loading Oro\Bundle\ImapBundle\Migrations\Data\ORM\ClearInactiveMailboxes
+  > loading Oro\Bundle\ReportBundle\Migrations\Data\ORM\LoadReportTypes
+  > loading Oro\Bundle\AddressBundle\Migrations\Data\ORM\LoadCountryData
+  > loading OroCRM\Bundle\MagentoBundle\Migrations\Data\ORM\UpdateIntegrationEntitiesData
+  > loading OroCRM\Bundle\MagentoBundle\Migrations\Data\ORM\UpdateLifetimeHistory
+  > loading Oro\Bundle\AddressBundle\Migrations\Data\ORM\LoadAddressTypeData
+  > loading OroCRM\Bundle\MagentoBundle\Migrations\Data\ORM\UpdateBigNumbersWidgetOptions
+  > loading Oro\Bundle\EntityConfigBundle\Migrations\Data\ORM\UpdateModuleAndEntityFields
+  > loading OroCRM\Bundle\MagentoBundle\Migrations\Data\ORM\LoadRegions
+  > loading Oro\Bundle\ActivityListBundle\Migrations\Data\ORM\UpdateEmailActivityListDescription
+  > loading OroCRM\Bundle\MagentoBundle\Migrations\Data\ORM\LoadNewsletterSubscriberStatusData
+  > loading OroCRM\Bundle\MagentoBundle\Migrations\Data\ORM\UpdateWorkflowStartStep
+  > loading OroCRM\Bundle\CaseBundle\Migrations\Data\ORM\LoadSourceData
+  > loading OroCRM\Bundle\CaseBundle\Migrations\Data\ORM\LoadPriorityData
+  > loading OroCRM\Bundle\CaseBundle\Migrations\Data\ORM\LoadStatusData
+  > loading OroCRM\Bundle\MagentoBundle\Migrations\Data\ORM\UpdateCustomerAddresses
+  > loading Oro\Bundle\OrganizationBundle\Migrations\Data\ORM\UpdateCustomEntitiesWithOrganization
+  > loading Oro\Bundle\UserBundle\Migrations\Data\ORM\LoadRolesData
+  > loading Oro\Bundle\AttachmentBundle\Migrations\Data\Orm\UpdateAttachmentsWithOrganization
+  > loading Oro\Bundle\UserBundle\Migrations\Data\ORM\LoadAdminUserData
+  > loading Oro\Bundle\UserBundle\Migrations\Data\ORM\LoadGroupData
+  > loading Oro\Bundle\EmailBundle\Migrations\Data\ORM\UpdateEmailTemplateWithOrganization
+  > loading Oro\Bundle\UserBundle\Migrations\Data\ORM\LoadEmailTemplates
+  > loading Oro\Bundle\IntegrationBundle\Migrations\Data\ORM\UpdateIntegrationsWithOrganization
+  > loading Oro\Bundle\ActivityListBundle\Migrations\Data\ORM\UpdateActivityListOwner
+  > loading Oro\Bundle\CalendarBundle\Migrations\Data\ORM\LoadEmailTemplates
+  > loading Oro\Bundle\CalendarBundle\Migrations\Data\ORM\LoadInvitationEmailTemplates
+  > loading Oro\Bundle\CalendarBundle\Migrations\Data\ORM\AddCalendarEventActivityLists
+  > loading Oro\Bundle\DataAuditBundle\Migrations\Data\ORM\UpdateAuditDataWithOrganization
+  > loading OroCRM\Bundle\EmbeddedForm\Migrations\Data\ORM\UpdateEmbeddedFormWithOrganization
+  > loading Oro\Bundle\ReportBundle\Migrations\Data\ORM\UpdateReportWithOrganization
+  > loading Oro\Bundle\SegmentBundle\Migrations\Data\ORM\UpdateSegmentWithOrganization
+  > loading Oro\Bundle\SidebarBundle\Migrations\Data\ORM\UpdateSidebarWidgetsWithOrganization
+  > loading Oro\Bundle\TagBundle\Migrations\Data\ORM\UpdateTagWithOrganization
+  > loading OroCRM\Bundle\DemoDataBundle\Migrations\Data\ORM\LoadRolesData
+  > loading Oro\Bundle\UserBundle\Migrations\Data\ORM\UpdateNavigationWithOrganization
+  > loading OroCRM\Bundle\ContactBundle\Migrations\Data\ORM\UpdateContactEntitiesWithOrganization
+  > loading OroCRM\Bundle\AccountBundle\Migrations\Data\ORM\UpdateAccountWithOrganization
+  > loading Oro\Bundle\TrackingBundle\Migrations\Data\ORM\UpdateTrackingWebsiteWithOrganization
+  > loading OroCRM\Bundle\CallBundle\Migrations\Data\ORM\UpdateCallWithOrganization
+  > loading OroCRM\Bundle\CallBundle\Migrations\Data\ORM\AddCallsActivityLists
+  > loading OroCRM\Bundle\CampaignBundle\Migrations\Data\ORM\UpdateCampaignWithOrganization
+  > loading OroCRM\Bundle\ChannelBundle\Migrations\Data\ORM\DefaultChannelData
+  > loading OroCRM\Bundle\TaskBundle\Migrations\Data\ORM\UpdateTaskWithOrganization
+  > loading OroCRM\Bundle\TaskBundle\Migrations\Data\ORM\AddTasksActivityLists
+  > loading OroCRM\Bundle\TaskBundle\Migrations\Data\ORM\LoadEmailTemplates
+  > loading OroCRM\Bundle\SalesBundle\Migrations\Data\ORM\UpdateB2bCustomerWithOrganization
+  > loading OroCRM\Bundle\SalesBundle\Migrations\Data\ORM\LoadCampaignPerformanceReport
+  > loading OroCRM\Bundle\SalesBundle\Migrations\Data\ORM\DefaultChannelData
+  > loading OroCRM\Bundle\SalesBundle\Migrations\Data\ORM\UpdateSalesEntitiesWithOrganization
+  > loading OroCRM\Bundle\ContactUsBundle\Migrations\Data\ORM\UpdateContactRequestWithOrganization
+  > loading OroCRM\Bundle\ContactUsBundle\Migrations\Data\ORM\DefaultChannelData
+  > loading OroCRM\Bundle\MagentoBundle\Migrations\Data\ORM\UpdateCustomerLifetimeForCanceledOrders
+  > loading OroCRM\Bundle\MagentoBundle\Migrations\Data\ORM\UpdateMagentoEntitiesWithOrganization
+  > loading OroCRM\Bundle\CaseBundle\Migrations\Data\ORM\UpdateCaseEntitiesWithOrganization
+  > loading Oro\Bundle\SecurityBundle\Migrations\Data\ORM\LoadAclRoles
+  > loading Oro\Bundle\EmailBundle\Migrations\Data\ORM\UpdateEmailAccessLevels
+  > loading Oro\Bundle\UserBundle\Migrations\Data\ORM\UpdateUserEntitiesWithOrganization
+  > loading Oro\Bundle\EmailBundle\Migrations\Data\ORM\UpdateEmailEditAclRule
+  > loading Oro\Bundle\EmailBundle\Migrations\Data\ORM\AddEmailActivityLists
+  > loading Oro\Bundle\CalendarBundle\Migrations\Data\ORM\UpdateAclRoles
+  > loading OroCRM\Bundle\DemoDataBundle\Migrations\Data\ORM\UpdateEmailAccessLevels
+  > loading Oro\Bundle\DashboardBundle\Migrations\Data\ORM\LoadDashboardData
+  > loading Oro\Bundle\EmailBundle\Migrations\Data\ORM\AddEmailActivityGrouping
+  > loading Oro\Bundle\CalendarBundle\Migrations\Data\ORM\LoadDashboardData
+  > loading Oro\Bundle\DashboardBundle\Migrations\Data\ORM\UpdateDefaultDashboard
+  > loading Oro\Bundle\SidebarBundle\Migrations\Data\ORM\UpdateDashboardsWithOrganization
+  > loading OroCRM\Bundle\ContactBundle\Migrations\Data\ORM\LoadDashboardData
+  > loading OroCRM\Bundle\AccountBundle\Migrations\Data\ORM\LoadDashboardData
+  > loading OroCRM\Bundle\CallBundle\Migrations\Data\ORM\LoadDashboardData
+  > loading OroCRM\Bundle\ChannelBundle\Migrations\Data\ORM\AddECommerceDashboard
+  > loading OroCRM\Bundle\SalesBundle\Migrations\Data\ORM\LoadDashboardData
+  > loading OroCRM\Bundle\MagentoBundle\Migrations\Data\ORM\LoadDashboardData
+  > loading OroCRM\Bundle\MagentoBundle\Migrations\Data\ORM\AddECommerceDashboard
+  > loading Oro\Bundle\EmailBundle\Migrations\Data\ORM\LoadDashboardData
+  > loading Oro\Bundle\MigrationBundle\Migration\UpdateDataFixturesFixture
+
+Command "oro:migration:data:load" executed in 23 second(s), memory usage: 43.08Mb
+
+
+[2015-09-06 11:53:18] Launching "oro:migration:data:load" command
+Loading "demo" data fixtures ...
+  > loading OroCRM\Bundle\DemoDataBundle\Migrations\Data\Demo\ORM\LoadBusinessUnitData
+  > loading OroCRM\Bundle\DemoDataBundle\Migrations\Data\Demo\ORM\LoadLeadSourceData
+  > loading OroCRM\Bundle\DemoDataBundle\Migrations\Data\Demo\ORM\LoadGroupData
+  > loading OroCRM\Bundle\DemoDataBundle\Migrations\Data\Demo\ORM\LoadChannelData
+  > loading OroCRM\Bundle\DemoDataBundle\Migrations\Data\Demo\ORM\LoadReportData
+  > loading OroCRM\Bundle\DemoDataBundle\Migrations\Data\Demo\ORM\LoadEmbeddedFormData
+  > loading OroCRM\Bundle\DemoDataBundle\Migrations\Data\Demo\ORM\LoadUserData
+  > loading OroCRM\Bundle\DemoDataBundle\Migrations\Data\Demo\ORM\LoadContactGroupData
+  > loading OroCRM\Bundle\DemoDataBundle\Migrations\Data\Demo\ORM\LoadPintabsData
+  > loading OroCRM\Bundle\DemoDataBundle\Migrations\Data\Demo\ORM\LoadUsersData
+  > loading OroCRM\Bundle\DemoDataBundle\Migrations\Data\Demo\ORM\LoadEmailTemplates
+  > loading OroCRM\Bundle\DemoDataBundle\Migrations\Data\Demo\ORM\LoadUsersCalendarData
+
+[2015-09-06 11:54:37] Launching "oro:navigation:init" command
+Load "Title Templates" from annotations and config files to db
+Completed
+
+Command "oro:navigation:init" executed in 2 second(s), memory usage: 51.26Mb
+
+
+[2015-09-06 11:54:40] Launching "fos:js-routing:dump" command
+Dumping exposed routes.
+
+[dir+]  js
+[file+] js/routes.js
+
+Command "fos:js-routing:dump" executed in 2 second(s), memory usage: 35.80Mb
+
+
+[2015-09-06 11:54:42] Launching "oro:localization:dump" command
+11:54:42 [file+] oro.locale_data.js
+
+Command "oro:localization:dump" executed in 0 second(s), memory usage: 7.78Mb
+
+
+[2015-09-06 11:54:43] Launching "oro:assets:install" command
+Installing assets as hard copies.
+Installing assets for Symfony\Bundle\FrameworkBundle into ./bundles/framework
+Installing assets for Oro\Bundle\SyncBundle into ./bundles/orosync
+Installing assets for FOS\JsRoutingBundle into ./bundles/fosjsrouting
+Installing assets for Nelmio\ApiDocBundle into ./bundles/nelmioapidoc
+Installing assets for Genemu\Bundle\FormBundle into ./bundles/genemuform
+Installing assets for A2lix\TranslationFormBundle into ./bundles/a2lixtranslationform
+Installing assets for Oro\Bundle\UIBundle into ./bundles/oroui
+Installing assets for Oro\Bundle\SecurityBundle into ./bundles/orosecurity
+Installing assets for Oro\Bundle\AttachmentBundle into ./bundles/oroattachment
+Installing assets for Oro\Bundle\EmailBundle into ./bundles/oroemail
+Installing assets for Oro\Bundle\UserBundle into ./bundles/orouser
+Installing assets for Oro\Bundle\EntityBundle into ./bundles/oroentity
+Installing assets for Oro\Bundle\EntityExtendBundle into ./bundles/oroentityextend
+Installing assets for Oro\Bundle\IntegrationBundle into ./bundles/orointegration
+Installing assets for JDare\ClankBundle into ./bundles/jdareclank
+Installing assets for JMS\JobQueueBundle into ./bundles/jmsjobqueue
+Installing assets for Oro\Bundle\ActivityListBundle into ./bundles/oroactivitylist
+Installing assets for Oro\Bundle\AddressBundle into ./bundles/oroaddress
+Installing assets for Oro\Bundle\CalendarBundle into ./bundles/orocalendar
+Installing assets for Oro\Bundle\ChartBundle into ./bundles/orochart
+Installing assets for Oro\Bundle\ConfigBundle into ./bundles/oroconfig
+Installing assets for Oro\Bundle\CronBundle into ./bundles/orocron
+Installing assets for Oro\Bundle\DataAuditBundle into ./bundles/orodataaudit
+Installing assets for Oro\Bundle\DataGridBundle into ./bundles/orodatagrid
+Installing assets for Oro\Bundle\DistributionBundle into ./bundles/orodistribution
+Installing assets for Oro\Bundle\EmbeddedFormBundle into ./bundles/oroembeddedform
+Installing assets for Oro\Bundle\EntityMergeBundle into ./bundles/oroentitymerge
+Installing assets for Oro\Bundle\EntityPaginationBundle into ./bundles/oroentitypagination
+Installing assets for Oro\Bundle\FilterBundle into ./bundles/orofilter
+Installing assets for Oro\Bundle\FormBundle into ./bundles/oroform
+Installing assets for Oro\Bundle\ImapBundle into ./bundles/oroimap
+Installing assets for Oro\Bundle\ImportExportBundle into ./bundles/oroimportexport
+Installing assets for Oro\Bundle\LocaleBundle into ./bundles/orolocale
+Installing assets for Oro\Bundle\NoteBundle into ./bundles/oronote
+Installing assets for Oro\Bundle\PlatformBundle into ./bundles/oroplatform
+Installing assets for Oro\Bundle\QueryDesignerBundle into ./bundles/oroquerydesigner
+Installing assets for Oro\Bundle\ReportBundle into ./bundles/ororeport
+Installing assets for Oro\Bundle\RequireJSBundle into ./bundles/ororequirejs
+Installing assets for Oro\Bundle\SearchBundle into ./bundles/orosearch
+Installing assets for Oro\Bundle\SegmentBundle into ./bundles/orosegment
+Installing assets for Oro\Bundle\SidebarBundle into ./bundles/orosidebar
+Installing assets for Oro\Bundle\TagBundle into ./bundles/orotag
+Installing assets for Oro\Bundle\TranslationBundle into ./bundles/orotranslation
+Installing assets for Oro\Bundle\WindowsBundle into ./bundles/orowindows
+Installing assets for Oro\Bundle\WorkflowBundle into ./bundles/oroworkflow
+Installing assets for Oro\Bundle\CommentBundle into ./bundles/orocomment
+Installing assets for Oro\Bundle\DashboardBundle into ./bundles/orodashboard
+Installing assets for Oro\Bundle\NavigationBundle into ./bundles/oronavigation
+Installing assets for OroCRM\Bundle\ContactBundle into ./bundles/orocrmcontact
+Installing assets for OroCRM\Bundle\AccountBundle into ./bundles/orocrmaccount
+Installing assets for OroCRM\Bundle\MarketingListBundle into ./bundles/orocrmmarketinglist
+Installing assets for Oro\Bundle\TrackingBundle into ./bundles/orotracking
+Installing assets for Oro\Bundle\ReminderBundle into ./bundles/ororeminder
+Installing assets for OroCRM\Bundle\CallBundle into ./bundles/orocrmcall
+Installing assets for OroCRM\Bundle\CampaignBundle into ./bundles/orocrmcampaign
+Installing assets for OroCRM\Bundle\ChannelBundle into ./bundles/orocrmchannel
+Installing assets for OroCRM\Bundle\TaskBundle into ./bundles/orocrmtask
+Installing assets for OroCRM\Bundle\AnalyticsBundle into ./bundles/orocrmanalytics
+Installing assets for OroCRM\Bundle\SalesBundle into ./bundles/orocrmsales
+Installing assets for OroCRM\Bundle\MagentoBundle into ./bundles/orocrmmagento
+Installing assets for OroCRM\Bundle\CaseBundle into ./bundles/orocrmcase
+
+Command "oro:assets:install" executed in 0 second(s), memory usage: 7.82Mb
+
+
+[2015-09-06 11:54:43] Launching "assetic:dump" command
+Dumping all prod assets.
+Debug mode is off.
+
+11:54:53 [dir+] /opt/lampp/htdocs/swcrm/app/../web/bundles/tinymce
+11:54:53 [file+] /opt/lampp/htdocs/swcrm/app/../web/bundles/tinymce/tinymce.min.js
+11:54:53 [file+] /opt/lampp/htdocs/swcrm/app/../web/bundles/tinymce/jquery.tinymce.min.js
+11:54:53 [dir+] /opt/lampp/htdocs/swcrm/app/../web/bundles/tinymce/plugins/bdesk_photo
+11:54:53 [file+] /opt/lampp/htdocs/swcrm/app/../web/bundles/tinymce/plugins/bdesk_photo/plugin.min.js
+11:54:53 [dir+] /opt/lampp/htdocs/swcrm/app/../web/bundles/tinymce/plugins/textcolor
+11:54:53 [file+] /opt/lampp/htdocs/swcrm/app/../web/bundles/tinymce/plugins/textcolor/plugin.min.js
+11:54:53 [dir+] /opt/lampp/htdocs/swcrm/app/../web/bundles/tinymce/plugins/link
+11:54:53 [file+] /opt/lampp/htdocs/swcrm/app/../web/bundles/tinymce/plugins/link/plugin.min.js
+11:54:53 [dir+] /opt/lampp/htdocs/swcrm/app/../web/bundles/tinymce/plugins/code
+11:54:53 [file+] /opt/lampp/htdocs/swcrm/app/../web/bundles/tinymce/plugins/code/plugin.min.js
+11:54:53 [dir+] /opt/lampp/htdocs/swcrm/app/../web/bundles/tinymce/themes/modern
+11:54:53 [file+] /opt/lampp/htdocs/swcrm/app/../web/bundles/tinymce/themes/modern/theme.min.js
+11:54:53 [dir+] /opt/lampp/htdocs/swcrm/app/../web/bundles/tinymce/skins/lightgray
+11:54:53 [file+] /opt/lampp/htdocs/swcrm/app/../web/bundles/tinymce/skins/lightgray/skin.min.css
+11:54:53 [file+] /opt/lampp/htdocs/swcrm/app/../web/bundles/tinymce/skins/lightgray/content.min.css
+11:54:53 [dir+] /opt/lampp/htdocs/swcrm/app/../web/bundles/tinymce/skins/lightgray/fonts
+11:54:53 [file+] /opt/lampp/htdocs/swcrm/app/../web/bundles/tinymce/skins/lightgray/fonts/tinymce.woff
+11:54:53 [file+] /opt/lampp/htdocs/swcrm/app/../web/bundles/tinymce/skins/lightgray/fonts/tinymce.ttf
+11:54:53 [file+] /opt/lampp/htdocs/swcrm/app/../web/bundles/components/jquery/jquery.js
+11:54:53 [file+] /opt/lampp/htdocs/swcrm/app/../web/bundles/components/underscore/underscore.js
+11:54:53 [file+] /opt/lampp/htdocs/swcrm/app/../web/bundles/components/backbone/backbone.js
+11:54:53 [file+] /opt/lampp/htdocs/swcrm/app/../web/js/7946a9a.js
+11:54:53 [dir+] /opt/lampp/htdocs/swcrm/app/../web/css
+11:54:53 [file+] /opt/lampp/htdocs/swcrm/app/../web/css/oro.css
+
+Command "assetic:dump" executed in 15 second(s), memory usage: 89.04Mb
+
+
+[2015-09-06 11:54:58] Launching "oro:translation:dump" command
+
+Command "oro:translation:dump" executed in 2 second(s), memory usage: 36.13Mb
+
+
+[2015-09-06 11:55:00] Launching "oro:requirejs:build" command
+Generating require.js main config
+Generating require.js build config
+Running code optimizer
+Cleaning up
+11:55:20 [file+] /opt/lampp/htdocs/swcrm/web/js/oro.min.js
+
+Command "oro:requirejs:build" executed in 20 second(s), memory usage: 10.94Mb
+
+
+[2015-09-06 11:55:20] Launching "cache:clear" command
+Clearing the cache for the prod environment with debug false
+
+Command "cache:clear" executed in 41 second(s), memory usage: 199.53Mb
+

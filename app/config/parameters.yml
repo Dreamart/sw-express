@@ -1,0 +1,25 @@
+parameters:
+    database_driver: pdo_mysql
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: swcrm
+    database_user: root
+    database_password: null
+    database_drop_full: true
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_port: null
+    mailer_encryption: null
+    mailer_user: null
+    mailer_password: null
+    websocket_bind_address: 127.0.0.1
+    websocket_bind_port: 8080
+    websocket_frontend_host: '*'
+    websocket_frontend_port: 8080
+    websocket_backend_host: '*'
+    websocket_backend_port: 8080
+    session_handler: session.handler.native_file
+    locale: en
+    secret: a0e016da2d5c4803d072dfc6de0e5998
+    installed: '2015-09-06T11:55:20+02:00'
+    assets_version: null
